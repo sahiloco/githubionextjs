@@ -1,0 +1,41 @@
+.reviewerInfoChild {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.june2023 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  min-width: 69px;
+}
+.reviewerNameDate1 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+}
+.reviewerInfo,
+.reviewerNameDate,
+.reviewerNameDate1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviewerNameDate {
+  height: 53px;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.reviewerInfo {
+  width: 181px;
+  flex-direction: row;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  font-family: var(--font-archivo);
+}

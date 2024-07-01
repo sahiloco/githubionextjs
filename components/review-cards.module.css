@@ -1,0 +1,325 @@
+.johnnyCash {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 101px;
+}
+.vectorIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.johnnyCashParent,
+.rating {
+  display: flex;
+  align-items: flex-start;
+}
+.rating {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.johnnyCashParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.reviewCardWrapper,
+.reviewContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviewContent {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+  margin-left: -101px;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+}
+.reviewCardWrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+.michellesPlaceWas {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  line-height: 160%;
+  color: var(--dark);
+}
+.reviewcard {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-4xl);
+  gap: var(--gap-xs);
+  min-width: 350px;
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.div {
+  height: 11px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  min-width: 24px;
+}
+.wrapper {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) var(--padding-xl) var(--padding-10xs-5) 0;
+}
+.frameParent,
+.frameWrapper,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.theLocationIs {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+}
+.reviewcard1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-4xl);
+  gap: var(--gap-xs);
+  min-width: 350px;
+  max-width: 100%;
+}
+.div1 {
+  height: 11px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  min-width: 24px;
+}
+.reviewRating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) var(--padding-xl) var(--padding-10xs-5) 0;
+}
+.vectorIcon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  min-height: 16px;
+}
+.imageCarousel {
+  width: 497.3px;
+  margin: 0 !important;
+  position: absolute;
+  top: 48px;
+  left: 365.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameChild {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: 79fec8d;
+}
+.december2022,
+.shaneWillis {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.shaneWillis {
+  line-height: 150%;
+  font-weight: 600;
+  min-width: 95px;
+}
+.december2022 {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  min-width: 104px;
+}
+.shaneWillisParent {
+  flex-direction: column;
+  gap: var(--gap-10xs);
+  flex-shrink: 0;
+  debug_commit: 79fec8d;
+}
+.ellipseParent,
+.frameContainer,
+.shaneWillisParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+}
+.ellipseParent {
+  width: 184px;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.div2 {
+  height: 11px;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  min-width: 24px;
+}
+.container {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-5) var(--padding-xl) var(--padding-10xs-5) 0;
+}
+.container,
+.frameDiv,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.frameDiv {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.aGreatPlace {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+}
+.reviewcard2 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-4xl);
+  gap: var(--gap-xs);
+  min-width: 350px;
+  max-width: 100%;
+}
+.yutaWatanabe {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 115px;
+}
+.vectorIcon2 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.hostBadge,
+.hostInfo,
+.reviewCards {
+  display: flex;
+  align-items: flex-start;
+}
+.hostBadge {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.hostInfo,
+.reviewCards {
+  position: absolute;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.hostInfo {
+  width: 758.7px;
+  margin: 0 !important;
+  top: 35px;
+  right: 24px;
+  justify-content: space-between;
+}
+.reviewCards {
+  bottom: 253px;
+  left: calc(50% - 670px);
+  width: 1340px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 450px) {
+  .reviewcard {
+    min-width: 100%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .reviewcard1 {
+    min-width: 100%;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .reviewcard2 {
+    min-width: 100%;
+  }
+}
